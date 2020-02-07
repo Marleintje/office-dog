@@ -2,7 +2,7 @@
 
 const htmlDaysLeftValueNl = document.getElementById("days-left-nl");
 const htmlDaysLeftValueEn = document.getElementById("days-left-en");
-const dogDay = new Date("26 Feb 2020");
+const dogDay = new Date("13 March 2020");
 const today = new Date();
 const dogTimeLeftInMS = dogDay - today;
 const dogTimeLeftInDays = dogTimeLeftInMS / ( 1000 * 60 * 60 * 24);
@@ -15,11 +15,11 @@ htmlDaysLeftValueEn && (htmlDaysLeftValueEn.innerHTML = dogTimeLeftInRoundedDays
 
 dogsArray = [
 	{
-		width: "17rem",
+		width: "14rem",
 		imageUrl: "https://flinndal.nl/cloud/img/happy-dog_a67ebb22.png"
 	},
 	{
-		width: "22rem",
+		width: "18rem",
 		imageUrl: "https://flinndal.nl/cloud/img/happy-dog-2_083c02a0.png"
 	},
 	{
