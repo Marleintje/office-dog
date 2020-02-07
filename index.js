@@ -2,7 +2,7 @@
 
 const htmlDaysLeftValueNl = document.getElementById("days-left-nl");
 const htmlDaysLeftValueEn = document.getElementById("days-left-en");
-const dogDay = new Date("14 Feb 2020");
+const dogDay = new Date("26 Feb 2020");
 const today = new Date();
 const dogTimeLeftInMS = dogDay - today;
 const dogTimeLeftInDays = dogTimeLeftInMS / ( 1000 * 60 * 60 * 24);
